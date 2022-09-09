@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main {
+    /* display:flex; */
+    min-height: 100vh;
+    background-image:url("IMG_3361.JPG");
+    background-size: cover;
+
+    
+    /* background-size: cover; */
+}
+.head {
+    display: flex;
+    padding-right
+    /* padding: 0px 0px 0px 30px; */
+    /* align-items: center; */
+    /* margin:20px; */
+    background: linear-gradient(orange,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    font-size: 45px;
+    justify-content: space-between;
+
+}
+
+/* nav{
+    display:flex;
+    background-color: black;
+    border: solid black;
+    
+
+} */
+/* .head p{
+    display: flex;
+    align-items: center;
+    margin:20px;
+    color:aqua;
+    font-size: 45px;
+} */
+.logo{
+    display:flex;
+}
+.H .head p{
+    /* display: flex;
+    align-items: center; */
+    margin:10px;
+    /* color:aqua; */
+    font-size: 45px;
+}
+.text ul li {
+    /* display: inline-block; */
+    /* float: right; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left:0px;
+    padding:0px;  
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.text ul li a{
+    /* display:flex; */
+    /* margin-right:0px; */
+    text-decoration: none;
+    color:white;
+    
+}
+nav{
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border: solid black;
+    
+
+}
+.text{
+    display: flex;
+    float: right;
+}

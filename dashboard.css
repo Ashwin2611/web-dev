@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    min-height: 100vh;
+    background:linear-gradient(rgba(30, 29, 29,0.5), rgba(4, 9, 30, 0.5)), url("IMG_3361.JPG");
+    background-size: cover;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.name {
+    display:flex;
+    padding-left: 100px;
+    padding-top:10px;
+    background: linear-gradient(#eee, rgb(207, 121, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 40px;
+
+}
+.name p{
+    padding-top:15px;
+}
+.logo {
+    margin-left:0%;
+    position: relative;right:560px;
+    /* border:solid red; */
+}
+nav{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    background:rgba(30, 29, 29,0.5);
+    
+    
+}

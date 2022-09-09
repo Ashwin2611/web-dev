@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    min-height: 100vh;
+    background:linear-gradient(rgba(30, 29, 29,0.5), rgba(4, 9, 30, 0.5)), url("IMG_3361.JPG");
+    background-size: cover;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.name {
+    display:flex;
+    padding-left: 100px;
+    padding-top:10px;
+    background: linear-gradient(to right,#eee, rgb(104, 141, 222),rgb(255, 76, 76));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 40px;
+
+}
+.name p{
+    padding-top:15px;
+}
+.logo {
+    margin-left:0%;
+    position: relative;right:490px;bottom:2px;
+    /* border:solid red; */
+}
+nav{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    background:rgba(30, 29, 29,0.5);
+    
+    
+}
+.Activities p{
+    text-align: center;
+    font-size:40px;
+    padding:25px;
+    color:rgb(51, 50, 50);
+    /* border: solid red; */
+    
+    
+}
+.Activities span{
+    background:linear-gradient(to right, white,rgb(111, 194, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:50px;
+
+}
+.Activities{
+    text-align: center;
+    background-color:rgba(174, 194, 233, 0.5),rgb(196, 194, 194);
+    /* height:110px; */
+    /* padding-bottom:-10px; */
+    /* border:solid red; */
+    
+} 
+/* .content{
+    display: flex;
+    align-items: center;
+    padding:25px;
+    background:linear-gradient(rgba(144, 142, 142, 0.5), rgba(70, 71, 72, 0.5));
+    border:solid red;
+} */
+
+.content {
+    display:flex;
+    align-items: center;
+    padding:25px;
+    font-size:30px;
+    position:relative;
+    bottom:50px;
+    color:white;
+}
+.content span{
+    display:flex;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(121, 125, 126);
+}
+.content p{
+    display:flex;
+    justify-content:;
+    /* border:solid red; */
+
+
+}
+
+
